@@ -1,0 +1,675 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WindowsFormsApplication1</name>
+    </assembly>
+    <members>
+        <member name="F:WindowsFormsApplication1.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.AccountDetails.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.AccountDetails.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.AccountDetails.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.Activities">
+            <summary>
+            This class defines the activities form</summary>
+            <remarks>
+            This is the remarks, This will allow the XML documentation to find my code and export it
+            </remarks>
+        </member>
+        <member name="F:WindowsFormsApplication1.Activities.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Activities.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Activities.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Form3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Form3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.PasswordChange.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.PasswordChange.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.PasswordChange.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.Register.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Register.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.Register.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:WindowsFormsApplication1.SystemApplication.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.SystemApplication.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WindowsFormsApplication1.SystemApplication.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSetTableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1TableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet1)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2TableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet2)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3TableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet3)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4TableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet4)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5TableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet5)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6TableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet6)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7.sports_logDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7.sports_logRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7.sports_logRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7TableAdapters.sports_logTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(WindowsFormsApplication1.traininglogDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(WindowsFormsApplication1.traininglogDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(WindowsFormsApplication1.traininglogDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager.UpdateAll(WindowsFormsApplication1.traininglogDataSet7)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.traininglogDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:WindowsFormsApplication1.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApplication1.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:WindowsFormsApplication1.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
